@@ -1,2 +1,4 @@
 # twitch-lib
-A little library that all my twitch-tools use
+
+This is a little Streamerbot Wrapper-Library that all my Twitch-Tools use. 
+It is not really made for public consumption, since it's heavily customized towards my setup and style, but it might be of use to you somehow. 
