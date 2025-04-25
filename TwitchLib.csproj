@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Streamer.bot.Plugin.Interface">
-      <HintPath>..\..\Streamer.bot-x64-0.2.6\Streamer.bot.Plugin.Interface.dll</HintPath>
+      <HintPath>.netdependencies\Streamer.bot.Plugin.Interface.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
