@@ -19,8 +19,8 @@ jobs:
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
-    #- name: Restore dependencies
-    #  run: nuget restore D:\a\testapp\testapp.sln
+    - name: Restore dependencies
+      run: nuget restore D:\a\twitch-lib\TwitchLib.csproj
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v1.1
     - name: Build and Publish Web App
@@ -28,5 +28,5 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: published_webapp
+        name: published_library
         path: D:\a\twitch-lib\bin\Release
